@@ -1,0 +1,18 @@
+package com.jobayer.springdemo;
+
+public class CricketCoach implements Coach {
+	
+	private FortuneService fortuneService;
+	
+	@Override
+	public String getDailyWorkout() {
+		
+		return "Practice batting for 15 minutes";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		return fortuneService.getFortune();
+	}
+
+}

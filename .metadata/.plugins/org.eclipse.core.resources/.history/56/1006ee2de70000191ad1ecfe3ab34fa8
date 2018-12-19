@@ -1,0 +1,10 @@
+package com.jobayer.springdemo;
+
+public class CricketCoach implements FortuneService {
+
+	@Override
+	public String getFortune() {
+		return null;
+	}
+
+}

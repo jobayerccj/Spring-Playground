@@ -1,0 +1,16 @@
+package com.jobayer.springdemo;
+
+public class HelloSpringApp {
+
+	public static void main(String[] args) {
+		//load spring configuration file
+		
+		//retrieve bean from spring container
+		
+		// call methods on the bean
+		
+		//
+
+	}
+
+}

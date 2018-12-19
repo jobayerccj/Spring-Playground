@@ -1,0 +1,5 @@
+package com.jobayer.springdemo;
+
+public class MyLoggerConfig {
+
+}
